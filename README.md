@@ -117,3 +117,5 @@ Provide a link to your video walkthrough of all code. This walkthrough cannot ex
 
 [3] "Generics" JavaDocs [Online]. Available: [Generics](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
 
+[4] "Nested Classes" JavaDocs [Online]. Available: [NestestClasses](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
+
