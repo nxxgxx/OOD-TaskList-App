@@ -26,7 +26,7 @@ For my CS5004 Final Assignment, I developed the TaskList App, focusing on creati
 
 ### UML Diagram:
 
-// instert here
+![UML](MVC_TaskList.png)
 
 ---
 
