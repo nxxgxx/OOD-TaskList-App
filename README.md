@@ -104,13 +104,16 @@ The university's academic integrity policy discusses actions regarded as violati
 <u>All work is my own Natalie Grillo (4/15/2024)</u>
 
 ## Code Files:
-Provide download links to all code files or a single Git repo. Make sure this is organized and we can tell what links are associated with what code base.
+*  Github Account name: NxxGxx
+*  Link to Assignment on Github:
 
 ## Video Walkthrough:
 Provide a link to your video walkthrough of all code. This walkthrough cannot exceed 20 minutes. Your primary goal for this walkthrough is to demonstrate you are the author.
 
 ## Resources:
+[1] "Steam" JavaDocs [Online]. Available: [Stream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
 
-[Stream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
-[Confetti](https://www.youtube.com/watch?v=GiA6ls9mOL4)
+[2] "Confetti" Youtube [Online]. Available: [Confetti](https://www.youtube.com/watch?v=GiA6ls9mOL4)
+
+[3] "Generics" JavaDocs [Online]. Available: [Generics](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
 
