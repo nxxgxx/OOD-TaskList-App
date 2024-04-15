@@ -1,0 +1,106 @@
+@startuml MVC TaskList
+
+skinparam linetype polyline
+' Set direction to top to bottom
+left to right direction
+' Or use top to bottom direction
+
+package Model {
+    class TaskModel {
+        -TaskList taskList
+        +TaskModel()
+        +addTask(Task task)
+    }
+
+    class TaskList {
+        -Node head
+        -LocalDate currentDate
+        +TaskList(LocalDate currentDate)
+        +addTask(Task task)
+        +map(Function<Task, Task> transformFunction): LinkedTaskList
+        +filter(Predicate<Task> predicate): LinkedTaskList
+        +countTasks(): int
+        +getAllTasks(): Task[]
+    }
+
+    class Task {
+        -int id
+        -String description
+        -LocalDate date
+        -boolean completed
+        -Priority priority
+        +Task(int id, String description, LocalDate date, boolean completed, Priority priority)
+        +printTask(): void
+        +getId(): int
+        +getDescription(): String
+        +setDescription(String description): void
+        +getDate(): LocalDate
+        +setDate(LocalDate date): void
+        +getCompleted(): boolean
+        +setCompleted(boolean completed): void
+        +getPriority(): Priority
+        +setPriority(Priority priority): void
+        +changeDate(iDate newDate): void
+        +changeCompletion(): void
+        +toCSVString(): String
+        +isCompleted(): boolean
+        +equals(Object obj): boolean
+        +hashCode(): int
+        +compareTo(Task otherTask): int
+    }
+
+    class Node {
+        -Task task
+        -Node next
+        +Node(Task task)
+        +getTask(): Task
+        +setTask(Task task): void
+        +getNext(): Node
+        +setNext(Node next): void
+        +printTask(): void
+        +getLength(): int
+    }
+
+    class TaskNode {
+        -Task task
+        -TaskNode next
+        +TaskNode(Task task)
+        +getTask(): Task
+        +getNext(): TaskNode
+        +setNext(TaskNode next): void
+    }
+}
+
+package View {
+    class TaskView {
+        +displayAllTasks(Task[] tasks)
+        +displayTaskDetails(Task task)
+        +promptUserForTaskDetails(): Task
+        +promptUserForTaskCompletion(): Task
+        +promptUserForTaskDeletion(): Task
+    }
+}
+
+package Controller {
+    class TaskController {
+        -TaskModel model
+        -TaskView view
+        +TaskController(TaskModel model, TaskView view)
+        +addTask(Task task)
+        +updateTask(Task task)
+        +completeTask(Task task)
+        +deleteTask(Task task)
+        +handleTaskCreation()
+        +handleTaskCompletion()
+        +handleTaskDeletion()
+    }
+}
+
+TaskModel --> TaskList
+TaskModel --> Task
+TaskModel --> Node
+TaskModel --> TaskNode
+TaskController --> TaskModel
+TaskController --> TaskView
+
+@enduml
