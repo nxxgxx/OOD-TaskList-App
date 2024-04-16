@@ -14,11 +14,12 @@ For my CS5004 Final Assignment, I developed the TaskList App, focusing on creati
 
 ### Smaller Applications for Other Concepts:
 
-*   Within the `TaskList` class, I implemented recursive methods like `removeTask` and `getTaskByIdRecursive` to demonstrate understanding of recursion while primarily utilizing iteration throughout the program.
-*   Abstract classes and interfaces are extensively used throughout the application. For example, `EventController` and `NonEventController` implement the `ITaskController` interface, ensuring a standardized structure for task controllers.
-*   Lambda expressions are employed in methods like `getTasksByCompletion`, `getTasksByPriority`, and `getTasksByDate` within both `EventController` and `NonEventController` classes, offering concise and flexible solutions for task filtering.
-*   The `EventController` class utilizes Java streams and lambda expressions to implement the `filter` higher-order function, demonstrating the flexibility and power of functional programming paradigms.
-*   The `TaskList` class serves as a linked list ADT, encapsulating the hierarchical representation of tasks and providing clear interfaces for interaction.
+*   Adding Tasks.
+*   Editing Task.
+*   Filtering tasks by date, completion, priority.
+*   Removing Tasks.
+*   Saving to a CSV file.
+*   Loading from a CSV file.
 
 ### Additional Information:
 *	Throughout the project, I prioritized code organization, readability, and extensibility.
