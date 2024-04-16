@@ -110,6 +110,7 @@ The university's academic integrity policy discusses actions regarded as violati
 
 ## Video Walkthrough:
 ![CodeWalkThrough](CodeWalkThrough.mp4.zip)
+*  The video is about 11 minutes long and the link might now work as intended. I have included the video as a zipfile in the repo.
 
 ## Resources:
 [1] "Steam" JavaDocs [Online]. Available: [Stream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
