@@ -109,7 +109,7 @@ The university's academic integrity policy discusses actions regarded as violati
 *  Link to Assignment on Github:
 
 ## Video Walkthrough:
-Provide a link to your video walkthrough of all code. This walkthrough cannot exceed 20 minutes. Your primary goal for this walkthrough is to demonstrate you are the author.
+![CodeWalkThrough](https://github.com/nxxgxx/CS5004-Final/blob/main/CodeWalkThrough.mp4.zip)
 
 ## Resources:
 [1] "Steam" JavaDocs [Online]. Available: [Stream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
