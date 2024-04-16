@@ -106,7 +106,7 @@ The university's academic integrity policy discusses actions regarded as violati
 
 ## Code Files:
 *  Github Account name: NxxGxx
-*  Link to Assignment on Github:
+*  Link to Assignment on Github: [GitHub Final](https://github.com/nxxgxx/CS5004-Final/tree/main)
 
 ## Video Walkthrough:
 ![CodeWalkThrough](CodeWalkThrough.mp4.zip)
